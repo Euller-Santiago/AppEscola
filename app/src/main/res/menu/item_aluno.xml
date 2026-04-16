@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Cadastro"
+        android:id="@+id/mniCadAlu"/>
+    <item
+        android:title="Consulta"
+        android:id="@+id/mniConAlu"/>
+    <item
+        android:title="Consulta Dinâmica"
+        android:id="@+id/mniConDinAlu"/>
+</menu>

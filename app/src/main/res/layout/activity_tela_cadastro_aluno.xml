@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/alu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadastroAluno">
+
+    <EditText
+        android:id="@+id/edtNomeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/edNome"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtCidadeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/edCidade"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTurmaAluno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/edTurma"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/edtIdadeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/edIdade"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/edtCPFAluno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/edCPF"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="45dp">
+
+        <Button
+            android:id="@+id/btnCadastrarAluno"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="@string/btCad" />
+        <Button
+            android:id="@+id/btnEditarAluno"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="@string/btEditar" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnLimparAluno"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/btLim" />
+
+    <ListView
+        android:id="@+id/lstAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

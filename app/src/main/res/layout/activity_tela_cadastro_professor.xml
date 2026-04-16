@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pro"
+    tools:context=".TelaCadastroProfessor">
+
+    <EditText
+        android:id="@+id/edtNomeProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="name"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="@string/edNome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTelefoneProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="@string/edTelefone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtFormacaoProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="@string/edFormacao"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/edtEmailProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/edEmail"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/edtCPFProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/edCPF"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="45dp">
+
+        <Button
+            android:id="@+id/btnCadastrarProfessor"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="@string/btCad" />
+        <Button
+            android:id="@+id/btnEditarProfessor"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="@string/btEditar" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnLimparProfessor"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/btLim" />
+
+    <ListView
+        android:id="@+id/lstProfessores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

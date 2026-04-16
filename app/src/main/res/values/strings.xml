@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sistema Escola</string>
+    <string name="aluno">Aluno</string>
+    <string name="professor">Professor</string>
+    <string name="btCad">Cadastrar</string>
+    <string name="btEditar">Editar</string>
+    <string name="btLim">Limpar</string>
+    <string name="edNome">Nome:</string>
+    <string name="edCidade">Cidade:</string>
+    <string name="edTelefone">Telefone:</string>
+    <string name="edTurma">Turma:</string>
+    <string name="edIdade">Idade:</string>
+    <string name="edCPF">CPF:</string>
+    <string name="edFormacao">Formacao</string>
+    <string name="edEmail">Email</string>
+</resources>
