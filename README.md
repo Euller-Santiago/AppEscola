@@ -6,12 +6,12 @@ Aplicativo mobile desenvolvido em Java no Android Studio com o objetivo de geren
 
 ##  Funcionalidades
 
-- 📌 Cadastro de alunos  
-- 📌 Cadastro de professores  
-- 📌 Consulta de alunos (simples e dinâmica)  
-- 📌 Menu de navegação para alunos e professores  
-- 📌 Validação e formatação de dados (ex: CPF com máscara)  
-- 📌 Armazenamento local com banco de dados SQLite  
+-  Cadastro de alunos  
+-  Cadastro de professores  
+-  Consulta de alunos (simples e dinâmica)  
+-  Menu de navegação para alunos e professores  
+-  Validação e formatação de dados (ex: CPF com máscara)  
+-  Armazenamento local com banco de dados SQLite  
 
 ---
 
