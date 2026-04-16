@@ -1,10 +1,10 @@
-# 📱 App Escola - Gerenciamento de Alunos e Professores
+# App Escola - Gerenciamento de Alunos e Professores
 
 Aplicativo mobile desenvolvido em Java no Android Studio com o objetivo de gerenciar alunos e professores, permitindo cadastro, consulta e organização de dados de forma eficiente.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - 📌 Cadastro de alunos  
 - 📌 Cadastro de professores  
@@ -15,7 +15,7 @@ Aplicativo mobile desenvolvido em Java no Android Studio com o objetivo de geren
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Java  
 - Android Studio  
@@ -24,7 +24,7 @@ Aplicativo mobile desenvolvido em Java no Android Studio com o objetivo de geren
 
 ---
 
-## 🧱 Estrutura do Projeto
+##  Estrutura do Projeto
 
 O projeto está organizado em camadas, incluindo:
 
@@ -47,7 +47,7 @@ O projeto está organizado em camadas, incluindo:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 *(adicione aqui prints do app)*
 
