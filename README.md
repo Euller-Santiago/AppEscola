@@ -46,12 +46,3 @@ O projeto está organizado em camadas, incluindo:
   - Máscara de CPF (`MascaraCPF.java`)  
 
 ---
-
-##  Screenshots
-
-*(adicione aqui prints do app)*
-
-```bash
-assets/tela-inicial.png
-assets/cadastro-aluno.png
-assets/consulta.png
